@@ -1,0 +1,11 @@
+diff --git a/OpenSoundMeter.desktop b/OpenSoundMeter.desktop
+index e576e7b..5fab21c 100644
+--- a/OpenSoundMeter.desktop
++++ b/OpenSoundMeter.desktop
+@@ -3,5 +3,5 @@ Type=Application
+ Name=Open Sound Meter
+ Comment=FFT based application for tuning sound systems.
+ Exec=OpenSoundMeter
+-Icon=white
++Icon=OpenSoundMeter
+ Categories=AudioVideo;
