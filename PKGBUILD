@@ -1,5 +1,5 @@
 pkgname=opensoundmeter
-pkgver=1.3
+pkgver=1.4.1
 pkgrel=1
 pkgdesc="Sound measurement application for tuning audio systems in real-time."
 arch=( x86_64 )
@@ -11,7 +11,7 @@ depends=(alsa-lib icu libglvnd libx11 qt5-base qt5-declarative qt5-quickcontrols
 makedepends=( gcc )
 
 source=(
-    "git+https://github.com/psmokotnin/osm#commit=0a858c53672c008788854740397b92012d1d68f2"
+    "git+https://github.com/psmokotnin/osm#commit=0491265aa7cb8388ccf4b98028c12078c91d1f04"
     fix_project.patch
     fix_desktop_icon.patch
 )
